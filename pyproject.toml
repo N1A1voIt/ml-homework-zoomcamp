@@ -1,0 +1,20 @@
+[project]
+name = "ml-homework-zoomcamp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "RANDRIANARISOA Ny Avohasina Mampandry", email = "120253454+N1A1voIt@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=3.0.6",
+    "scikit-learn>=1.9.1",
+]
+
+[project.scripts]
+ml-homework-zoomcamp = "ml_homework_zoomcamp:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
